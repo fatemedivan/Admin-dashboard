@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'lalezar';
+    src: url(/fonts/Lalezar-Regular.ttf) format("truetype");
+}
+@theme {
+    --font-lalezar : 'lalezar';
+    --color-primary : #471AAA;
+    --color-white-50 : #f3f3f3;
+    --shadow-box : 0 0 15px -10px rgba(0,0,0,0.75);
+    --breakpoint-md-lg : 55rem
+}
+.Toastify--toast{
+    font-family: 'lalezar';
+}
+@custom-variant dark (&:where(.dark, .dark *));
